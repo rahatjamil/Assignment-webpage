@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav2 from './Components/Nav2';
+import Patient from './Components/Patient';
+import Details from './Components/Personal_details';
+import Documents from './Components/Documents';
+import Navigation from './Components/Navigation';
+import Medical_records from './Components/Medical_records';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+      super(props)
+      this.state = {
+                
+      }
+    }
+
+  render() {
+      return (
+          <div>
+            <Navigation></Navigation>
+          </div>
+      )
+  }
 }
 
 export default App;
