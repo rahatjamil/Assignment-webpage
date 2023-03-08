@@ -1,11 +1,7 @@
 import React from 'react';
-import './App.css';
-import Nav2 from './Components/Nav2';
-import Patient from './Components/Patient';
-import Details from './Components/Personal_details';
-import Documents from './Components/Documents';
 import Navigation from './Components/Navigation';
-import Medical_records from './Components/Medical_records';
+import Wrapper from './Components/Wrapper';
+import './App.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,7 +14,9 @@ class App extends React.Component {
   render() {
       return (
           <div>
-            <Navigation></Navigation>
+            <Navigation />
+            <Wrapper />
+            
           </div>
       )
   }

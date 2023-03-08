@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+
+.patient {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient img {
+    width: 92px;
+    height: 92px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #242831;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #6B6B6B;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 140%;
+    font-weight: 400;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.numbers div:first-child {
+    border-right: 1px solid #6b6b6b7e;
+}
+ 
+.numbers>div {
+    width: 100px;
+}
+
+.count {
+    font-size: 20px;
+    color: #242831;
+}
+
+.countRef {
+    font-size: 12px;
+    color: #6B6B6B;
+}
+
+.btn {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Source Serif 4';
+    font-weight: 500;
+    font-size: 14px;
+    color: #242831;
+    border: 0.1px solid #6B6B6B;
+}
+

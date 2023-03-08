@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+
+.nav2 {
+    width: 640px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.tabs {
+    width: 203px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    line-height: 140%;  
+}
+
+.tabs a {
+    color: #6B6B6B;
+    text-decoration: none;
+    font-family: 'Source Serif 4';
+    font-weight: 500;
+    font-size: 12px;  
+}
+
+.actives {
+    background-color: #FFFFFF;
+}
+
+.actives a {
+    color: #4469BA;
+}
+

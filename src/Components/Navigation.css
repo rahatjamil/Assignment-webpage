@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .navigation {
-    width: 10%;
-    height: 100%;
-    color: #000000;
-    background-color: #000000;
+    float: left;
+    background-color : #FFFFFF;
+    border : 1px solid #ECECEC;
+    width: 85px;
+    height: 680px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navigation img {
+    width : 23px;
+    height: 23px;
+}
+
+.tab {
+    flex : 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.active {
+    background-color: #29B712;
+}
+
+.icon img {
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
 }
